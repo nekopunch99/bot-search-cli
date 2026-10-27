@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sns-cli"
+version = "0.1.0"
+description = "Unified read-only social search CLI for Xiaohongshu, Douyin, and Bilibili"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "The sns-cli Authors" }]
+keywords = ["social", "cli", "xiaohongshu", "douyin", "bilibili", "search"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Internet :: WWW/HTTP",
+]
+dependencies = [
+  "qrcode[pil]>=8.0",
+  "Pillow>=10.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "build>=1.0",
+  "wheel",
+]
+
+[project.scripts]
+sns = "sns.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/nekopunch99/sns-cli-search"
+Repository = "https://github.com/nekopunch99/sns-cli-search"
+Issues = "https://github.com/nekopunch99/sns-cli-search/issues"
+Socai = "https://github.com/socai-io/socai"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["sns*"]

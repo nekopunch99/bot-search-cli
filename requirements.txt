@@ -1,0 +1,4 @@
+# Prefer: pip install -e .
+# Direct deps (also declared in pyproject.toml):
+qrcode[pil]>=8.0
+Pillow>=10.0

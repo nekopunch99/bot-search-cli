@@ -1,0 +1,25 @@
+sns-cli
+Copyright 2026 The sns-cli Authors
+
+Repository: https://github.com/nekopunch99/sns-cli-search
+
+This product is licensed under the Apache License, Version 2.0.
+See the LICENSE file for the full license text.
+
+---------------------------------------------------------------------------
+Attribution — Socai
+
+This project is inspired by and builds on the Socai CLI experience and
+capabilities (Apache License 2.0). Xiaohongshu (xhs) and Douyin (dy)
+search are performed by invoking the external `socai` CLI as a subprocess;
+Bilibili (bili) login and search are implemented in this repository.
+
+Socai:
+  https://github.com/socai-io/socai
+  https://socai.io/
+
+This repository is primarily an original Python wrapper and Bilibili
+implementation. It is not a verbatim fork of the Socai source tree. Public
+descriptions may say "based on / extends Socai" to credit the upstream UX
+and the dependency on the `socai` CLI for xhs/dy.
+---------------------------------------------------------------------------

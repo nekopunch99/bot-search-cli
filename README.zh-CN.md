@@ -1,10 +1,10 @@
-# sns-cli
+# bot-search-cli
 
 统一**只读**社交搜索 CLI，覆盖 **小红书 (xhs)**、**抖音 (dy)**、**B 站 (bili)**。
 
 JSON 卡片输出风格接近 [Socai](https://github.com/socai-io/socai)。**每个源都必须先登录**；未在 `~/.sns/state.json` 标记登录时，`search` 会直接拒绝。
 
-- **仓库：** https://github.com/nekopunch99/sns-cli-search
+- **仓库：** https://github.com/nekopunch99/bot-search-cli
 - **协议：** Apache-2.0（见 [LICENSE](LICENSE)、[NOTICE](NOTICE)）
 - **English:** [README.md](README.md)
 

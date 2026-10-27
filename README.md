@@ -1,10 +1,10 @@
-# sns-cli
+# bot-search-cli
 
 Unified **read-only** social search CLI for **Xiaohongshu (xhs)**, **Douyin (dy)**, and **Bilibili (bili)**.
 
 JSON card output is intentionally close to [Socai](https://github.com/socai-io/socai). Each source must be logged in first; `search` is refused until `~/.sns/state.json` marks that source as logged in.
 
-- **Repository:** https://github.com/nekopunch99/sns-cli-search
+- **Repository:** https://github.com/nekopunch99/bot-search-cli
 - **License:** Apache-2.0 (see [LICENSE](LICENSE), [NOTICE](NOTICE))
 - **Chinese docs:** [README.zh-CN.md](README.zh-CN.md)
 

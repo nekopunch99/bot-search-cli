@@ -3,13 +3,13 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "sns-cli"
+name = "bot-search-cli"
 version = "0.1.0"
 description = "Unified read-only social search CLI for Xiaohongshu, Douyin, and Bilibili"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "Apache-2.0" }
-authors = [{ name = "The sns-cli Authors" }]
+authors = [{ name = "The bot-search-cli Authors" }]
 keywords = ["social", "cli", "xiaohongshu", "douyin", "bilibili", "search"]
 classifiers = [
   "Development Status :: 3 - Alpha",
@@ -39,9 +39,9 @@ dev = [
 sns = "sns.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/nekopunch99/sns-cli-search"
-Repository = "https://github.com/nekopunch99/sns-cli-search"
-Issues = "https://github.com/nekopunch99/sns-cli-search/issues"
+Homepage = "https://github.com/nekopunch99/bot-search-cli"
+Repository = "https://github.com/nekopunch99/bot-search-cli"
+Issues = "https://github.com/nekopunch99/bot-search-cli/issues"
 Socai = "https://github.com/socai-io/socai"
 
 [tool.setuptools.packages.find]

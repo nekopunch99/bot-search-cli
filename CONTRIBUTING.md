@@ -1,12 +1,12 @@
 # Contributing to sns-cli
 
-Thanks for helping improve https://github.com/nekopunch99/sns-cli-search.
+Thanks for helping improve https://github.com/nekopunch99/bot-search-cli.
 
 ## Dev setup
 
 ```bash
-git clone https://github.com/nekopunch99/sns-cli-search.git
-cd sns-cli-search
+git clone https://github.com/nekopunch99/bot-search-cli.git
+cd bot-search-cli
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -e ".[dev]"
